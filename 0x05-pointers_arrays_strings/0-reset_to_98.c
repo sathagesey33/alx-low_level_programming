@@ -1,4 +1,4 @@
-#include main.h
+#include "main.h"
 #include <stdio.h>
 /**
  * main - Write a function that takes a pointer to an int and update
