@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - Write a function that takes a pointer to an int and update
+ *reset_to_98 - take a pointer to an int and updates
  * the value it points to 98
  * @n: An integer input pointer
 * Return: Always 0
