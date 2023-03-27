@@ -1,13 +1,12 @@
-#include "main.h"
+#include main.h
 #include <stdio.h>
 /**
- * main - Write a function that takes a pointer to an int
- * Return: Always 0.
+ * main - Write a function that takes a pointer to an int and update
+ * the value it points to 98
+* Return: Always 0
 */
 
-int main(void)
+void reset_to_98(int *n);
 {
-Prototype: void reset_to_98(int *n);
-
-Return(0)
+	*n = 98;
 }
