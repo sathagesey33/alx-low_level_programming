@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdl:D.h>
 #include <time.h>
 
 /**
@@ -21,16 +21,20 @@ int main(void)
 	for (i = 0; i < 100; i++);
 
 	{
-		pas[i] = rand() % 78;
+		pass[i] = rand() % 78;
 		sum +=(pass[i] + '0');
 		putchar(pass[i] + '0');
+	}
 		if ((2772 - sum) - '0' < 78)
 		{
 			n = 2772 - sum -'0';
 			sum += n;
 			putchar(n + '0');
-break:
+			break;
 		}
+
+		return (0);
+}
 
 
 
