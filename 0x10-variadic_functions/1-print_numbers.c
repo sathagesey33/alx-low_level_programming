@@ -20,6 +20,6 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		printf("%d", va_arg(nums, int));
 
 		if (index != (n - 1) && separator != NULL)
-			printf("%s \n", separator);
+			printf("%s", separator);
 	}
 }
